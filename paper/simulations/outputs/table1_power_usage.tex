@@ -1,0 +1,19 @@
+% Table I: Power Usage Comparison (4 methods)
+\begin{table*}[t]
+\centering
+\caption{Power usage and target-rate objective $J$ for four allocation strategies. Target-rate allocation leaves power unused when $P_{\mathrm{tot}} \ge \sum_i \bar{P}_i = 16.8$.}
+\label{tab:power_usage}
+\begin{tabular}{rrrrrrrrr}
+\toprule
+$P_{\mathrm{tot}}$ & \multicolumn{2}{c}{Target-Rate} & \multicolumn{2}{c}{Waterfilling} & \multicolumn{2}{c}{Uniform} & \multicolumn{2}{c}{Prop.\ Fairness} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
+ & Used & $J$ & Used & $J$ & Used & $J$ & Used & $J$ \\
+\midrule
+5 & 5.00 & 9.593 & 5.00 & 18.747 & 5.00 & 12.790 & 5.00 & 10.646 \\
+10 & 10.00 & 1.789 & 10.00 & 15.383 & 10.00 & 10.600 & 10.00 & 6.532 \\
+15 & 15.00 & 0.079 & 15.00 & 17.605 & 15.00 & 13.946 & 15.00 & 8.984 \\
+20 & 16.75 & 0.000 & 20.00 & 21.751 & 20.00 & 18.807 & 20.00 & 13.362 \\
+25 & 16.75 & 0.000 & 25.00 & 26.582 & 25.00 & 24.125 & 25.00 & 18.396 \\
+\bottomrule
+\end{tabular}
+\end{table*}
